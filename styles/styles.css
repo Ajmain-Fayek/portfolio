@@ -1,7 +1,69 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg, #bdd1ff, #00000000, #00000000);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 200px;
+}
+
+nav h3{
+    color: #5C1E54;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+ 
+nav ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul li button{
+    background: #5C1E54;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    opacity: .9;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav ul li button:hover{
+    opacity: 1;
+}
+
+nav ul li button:active{
+    opacity: .7;
+}
+
+.general{
+    font-size: 25px;
+    color: #000;
 }
 
 .container{
@@ -13,13 +75,87 @@
     height: 950px;
     display: flex;
     flex-direction: row;
-    background-image: url("../assets/image/bg.png");
+    background:  linear-gradient(45deg, #bdd1ff, #00000000, #00000000),
+                url("../assets/image/bg.png");
     background-position: center;
     background-size: cover;
 }
 
 .section_width{
     width: 50%;
+}
+
+.section1 img{
+    width: 30px;
+}
+
+.section1{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.section1 h1{
+    font-size: 128px;
+}
+
+.section1 h1 span{
+    color: #5C1E54;
+}
+.section1 h3{
+    font-size: 48px;
+}
+
+.section1 p{
+    font-size: 30px;
+    margin-bottom: 10px;
+    opacity: .7;
+}
+
+.btn-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section1 button{
+    border: none;
+    border-radius: 5px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.section1 button:hover{
+    opacity: 1;
+}
+
+.section1 button:active{
+    opacity: .5;
+}
+
+.resume{
+    padding: 5px 40px;
+    background-color: #A4BBF2;
+    opacity: .9;
+    color: #000;
+    font-weight: 600;
+}
+
+.hire_me{
+    padding: 5px 40px;
+    background-color: #5C1E54;
+    font-weight: 600;
+    color: #FFF;
+    opacity: .9;
+}
+
+.hire_me img{
+    margin: auto 10px;
 }
 
 #ajmain{
@@ -34,64 +170,10 @@
     position: fixed;
     gap: 30px;
     right: 25px;
-    top: 30px;
+    top: 100px;
 }
 
 .social img{
     width: 45px;
     cursor: pointer;
-}
-
-.section1 img{
-    width: 30px;
-}
-
-.section1{
-    display: flex;
-    gap: 25px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 50px;
-}
-
-.section1 h1{
-    font-size: 128px;
-}
-.section1 h3{
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.section1 button{
-    border: none;
-    border-radius: 5px;
-    font-size: 36px;
-    cursor: pointer;
-}
-
-.section1 button:hover{
-    opacity: .9;
-}
-
-.section1 button:active{
-    opacity: .5;
-}
-
-.resume{
-    padding: 5px 10px;
-    background-color: #5C1E54;
-    opacity: .75;
-    color: #fff;
-}
-
-.hire_me{
-    padding: 5px 50px;
-    background-color: #A4BBF2;
-    font-weight: 600;
-    color: #000;
-}
-
-.hire_me img{
-    margin: auto 10px;
 }
