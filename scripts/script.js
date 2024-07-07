@@ -17,3 +17,7 @@ document.getElementById('linkedin').addEventListener('click', function(){
 document.getElementById('facebook').addEventListener('click', function(){
     window.open("https://www.facebook.com/AjmainFayek733/");
 });
+
+document.getElementById('contact').addEventListener('click', function(){
+    window.open("tel:+8801568647092")
+})
