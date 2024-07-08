@@ -37,6 +37,19 @@ body{
     }
     /* Button */
 
+    /* Parent */
+    .parent{
+        max-width: 1750px;
+        margin: 0 auto;
+    }
+    /* Parent */
+
+    /* Child */
+    .child{
+        width: 90%;
+    }
+    /* Child */
+
 /* Primary Styles Ends Here */
 
 /* Navigation Bar Style Starts Here */
@@ -62,7 +75,7 @@ body{
     width: 30%;
 }
 
-.myName-a, .myName-f{
+.myName{
     font-size: 30px;
     color:rgba(121, 0, 74, 0.829);
 }
@@ -92,3 +105,92 @@ body{
     color: rgba(0, 0, 0, 0.6);
 }
 /* Navigation Bar Style Ends Here */
+
+/* Cover Styles Starts Here */
+.cover-element{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 720px;
+    background: linear-gradient(200deg, #5e004242, #fff, #fff, #5e004242);
+    margin: 20px auto;
+}
+
+    /* Section 1 starts Here */
+.cover-element > .section-1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    width: 40%;
+}
+
+.cover-element > .section-1 img{
+    width: 90%;
+}
+
+.cover-element > .section-1 .social{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 30px;
+    top: 10px;
+    right: 10px;
+}
+
+.cover-element > .section-1 > .social img{
+    width: 30px;
+}
+    /* Section 1 Ends Here */
+
+    /* Section 2 starts Here */
+.cover-element > .section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.cover-element > .section-2 h1{
+    font-size: 70px;
+}
+
+.cover-element > .section-2 > h1 .myName-cover{
+    color: rgba(121, 0, 74, 0.829);
+    font-size: 75px;
+}
+
+.cover-element > .section-2 h3{
+    font-size: 30px;
+    margin: 10px auto;
+    font-weight: 700;
+}
+
+.cover-element > .section-2 p{
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    opacity: .7;
+    font-weight: 600;
+    margin: 10px auto;
+}
+
+.cover-element > .section-2 > .btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px auto;
+}
+
+.cover-element > .section-2 > .btn-container > .btn img{
+    width: 20px;
+    margin: 0 10px;
+}
+
+.cover-element > .section-2 > .btn-container > .btn{
+    display: flex;
+    align-items: center;
+}
+    /* Section 2 Ends Here */
+/* Cover Styles Ends Here */
