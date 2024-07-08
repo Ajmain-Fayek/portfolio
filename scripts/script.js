@@ -19,5 +19,5 @@ document.getElementById('facebook').addEventListener('click', function(){
 });
 
 document.getElementById('contact').addEventListener('click', function(){
-    window.open("tel:+8801568647092")
-})
+    window.open("tel:+8801568647092");
+});

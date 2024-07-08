@@ -1,0 +1,160 @@
+/* Responsiveness For Small Devices  Starts Here*/
+@media only screen and (min-width: 320px) {
+    /* Primary Styles Starts Here */
+        /* Button */
+        .button-primary{
+            font-size: 15px;
+            font-weight: 500;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        /* Button */
+    /* Primary Styles Ends Here */
+
+    /* Navigation Bar Responsiveness Starts Here */
+    .navBar{
+        gap:10px;
+    }
+
+    .navBar h3{
+        font-size: 16px;
+    }
+
+    .myName-a, .myName-f{
+        font-size: 20px;
+    }
+
+    .navBar ul{
+        gap: 10px;
+    }
+
+    .navBar ul li a{
+        font-size: 16px;
+    }
+    /* Navigation Bar Responsiveness Ends Here */
+}
+/* Responsiveness For Small Devices  Ends Here*/
+
+
+
+/* Responsiveness For Medium Devices  Starts Here*/
+@media only screen and (min-width: 375px) {
+    /* Primary Styles Starts Here */
+        /* Button */
+        .button-primary{
+            font-size: 15px;
+            font-weight: 500;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        /* Button */
+    /* Primary Styles Ends Here */
+
+    /* Navigation Bar Responsiveness Starts Here */
+    .navBar{
+        gap:10px;
+    }
+
+    .navBar h3{
+        font-size: 16px;
+        width: 40%;
+    }
+
+    .myName-a, .myName-f{
+        font-size: 20px;
+    }
+
+    .navBar ul{
+        gap: 10px;
+        width: 60%;
+    }
+
+    .navBar ul li a{
+        font-size: 16px;
+    }
+    /* Navigation Bar Responsiveness Ends Here */
+}
+/* Responsiveness For Medium Devices  Ends Here*/
+
+
+
+/* Responsiveness For Large Devices  Starts Here*/
+@media only screen and (min-width: 425px) {
+    /* Primary Styles Starts Here */
+        /* Button */
+        .button-primary{
+            font-size: 18px;
+            font-weight: 500;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        /* Button */
+    /* Primary Styles Ends Here */
+
+    /* Navigation Bar Responsiveness Starts Here */
+    .navBar{
+        gap:10px;
+    }
+
+    .navBar h3{
+        font-size: 18px;
+        width: 40%;
+    }
+
+    .myName-a, .myName-f{
+        font-size: 25px;
+    }
+
+    .navBar ul{
+        gap: 10px;
+        width: 60%;
+    }
+
+    .navBar ul li a{
+        font-size: 18px;
+    }
+    /* Navigation Bar Responsiveness Ends Here */
+}
+/* Responsiveness For Large Devices  Ends Here*/
+
+
+
+
+/* Responsiveness For Tablet Devices  Starts Here*/
+@media only screen and (min-width: 768px) {
+    /* Primary Styles Starts Here */
+        /* Button */
+        .button-primary{
+            font-size: 20px;
+            font-weight: 500;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        /* Button */
+    /* Primary Styles Ends Here */
+
+    /* Navigation Bar Responsiveness Starts Here */
+    .navBar{
+        gap:20px;
+    }
+
+    .navBar h3{
+        font-size: 20px;
+        width: 30%;
+    }
+
+    .myName-a, .myName-f{
+        font-size: 30px;
+    }
+
+    .navBar ul{
+        gap: 100px;
+        width: 70%;
+    }
+
+    .navBar ul li a{
+        font-size: 20px;
+    }
+    /* Navigation Bar Responsiveness Ends Here */
+}
+/* Responsiveness For Tablet Devices  Ends Here*/
